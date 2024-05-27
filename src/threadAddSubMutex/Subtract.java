@@ -17,8 +17,8 @@ public class Subtract implements Runnable{
            // lock.lock();
             synchronized (count) {
                 count.value -= i;
-                //  lock.unlock();
-            }
+                 //lock.unlock();
+           }
         }
     }
 }

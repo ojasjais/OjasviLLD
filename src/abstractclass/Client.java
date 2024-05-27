@@ -2,10 +2,10 @@ package abstractclass;
 
 public class Client {
     public static void main(String[] args) { // concrete class
-//        Animal tiger =new Tiger();
-//        tiger.walk();
-//        tiger.eat();
-//        tiger.sleep();
+        Animal tiger =new Tiger();
+        tiger.walk();
+        tiger.eat();
+        tiger.sleep();
     }
 }
 //if we remove eat from tigerr class will become abstract
